@@ -61,7 +61,7 @@ const todoList = () => {
               strList.push(str)
             }
             else {
-              str = `[] ${todoItem.title}`;
+              str = `[ ] ${todoItem.title}`;
               strList.push(str);
             }
         } else {
@@ -70,7 +70,7 @@ const todoList = () => {
               strList.push(str);
             }
             else {
-              str = `[] ${todoItem.title} ${todoItem.dueDate}`;
+              str = `[ ] ${todoItem.title} ${todoItem.dueDate}`;
               strList.push(str);
             }
         }
